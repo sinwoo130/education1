@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog Page</title>
+    <style>
+        #header {
+            background-color: pink;
+            width: 100%;
+            height: 50px;
+            text-align:center;
+            font: bold 40px Georgia,serif;
+        }
+
+        #nav {
+            width: 40%;
+            background-color: yellow;
+            height: 350px;
+            float: left;
+        }
+
+        #content {
+            width: 60%;
+            background-color: yellow;
+            height: 350px;
+            float: right;
+        }
+
+        #footer {
+            background-color: hotpink;
+            width: 100%;
+            height: 50px;
+            clear: both;
+            text-align: center;
+        }
+        div.nav{list-style-type:disc;}
+        a:hover {color:red;}
+        img.ab{float:unset}
+        
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">My Blog Page</div>
+        <div id="nav">
+            <h1>Links</h1>
+            <ul class="link">
+                <li><a href="https://www.w3.org/">W3C</a></li>
+                <li><a href="https://www.mozilla.org/ko/">MOZILLA</a></li>
+                <li><a href="https://htmldog.com/">HTML Dogs</a></li>
+            </ul>
+            <div align="center"><img class="ab" src="panda.jpg" width="160" height="120" /></div>
+            <div align="center"><p>판다</p></div>
+        </div>
+        <div id="content">
+            <h1>Semantic Tags</h1>
+            <p>시멘틱 요소(Semantic elements)들은 브라우저에게 요소의 의미나 
+            목적을 명확하게 알려주는 요소이다.</p>
+            <h1>div와 span</h1>
+            <p>div은 "divide"의 약자로서 페이지를 논리적인 섹션으로 분리하는데 사용되는 태그이다.span요소는 인라인 요소로서 텍스틀를 위한 컨테이너로 사용할 수 있다. </p>
+        
+        
+        </div>
+        <div id="footer"> 
+            <p style="color:white">Copyright (c) 2013 Hong </p>
+</div>
+    </div>
+</body>
+</html>
